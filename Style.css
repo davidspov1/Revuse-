@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rev.uze - Vendor Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Rev.uze</h1>
+    <p>Select a vendor to purchase from</p>
+  </header>
+
+  <main class="grid">
+    <div class="card" onclick="buy('Watch Vendor')">
+      <h2>Watch Vendor</h2>
+      <p>High-end watches at wholesale rates</p>
+    </div>
+
+    <div class="card" onclick="buy('Spider Vendor')">
+      <h2>Spider Vendor</h2>
+      <p>Exclusive spider-themed gear and accessories</p>
+    </div>
+
+    <div class="card" onclick="buy('Airpod Vendor')">
+      <h2>Airpod Vendor</h2>
+      <p>Bulk AirPods and accessories</p>
+    </div>
+
+    <div class="card" onclick="buy('Clothing Vendor')">
+      <h2>Clothing Vendor</h2>
+      <p>Trendy wholesale clothing options</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Rev.uze</p>
+  </footer>
+
+  <script>
+    function buy(vendor) {
+      alert("You selected: " + vendor + "\nCheckout coming soon!");
+    }
+  </script>
+
+</body>
+</html>
+
